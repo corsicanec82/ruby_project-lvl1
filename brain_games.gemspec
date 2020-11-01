@@ -11,5 +11,6 @@ Gem::Specification.new do |spec|
     brain-games
     brain-even
     brain-prime
+    brain-gcd
   ]
 end
