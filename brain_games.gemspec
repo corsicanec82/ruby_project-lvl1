@@ -7,5 +7,8 @@ Gem::Specification.new do |spec|
   spec.authors = ['Stanislav Dzisiak']
   # spec.files = ['lib/*', 'bin/*']
   spec.required_ruby_version = '>= 2.7.0'
-  spec.executables = ['brain-games']
+  spec.executables = %w[
+    brain-games
+    brain-even
+  ]
 end
