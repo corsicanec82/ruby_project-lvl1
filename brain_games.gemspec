@@ -10,5 +10,6 @@ Gem::Specification.new do |spec|
   spec.executables = %w[
     brain-games
     brain-even
+    brain-prime
   ]
 end
