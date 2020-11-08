@@ -13,5 +13,8 @@ brain-prime:
 brain-gcd:
 	./bin/brain-gcd
 
+brain-calc:
+	./bin/brain-calc
+
 lint:
 	bundle exec rubocop .
