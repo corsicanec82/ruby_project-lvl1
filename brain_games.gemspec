@@ -13,5 +13,6 @@ Gem::Specification.new do |spec|
     brain-prime
     brain-gcd
     brain-calc
+    brain-progression
   ]
 end

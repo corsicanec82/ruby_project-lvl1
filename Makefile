@@ -16,5 +16,8 @@ brain-gcd:
 brain-calc:
 	./bin/brain-calc
 
+brain-progression:
+	./bin/brain-progression
+
 lint:
 	bundle exec rubocop .
