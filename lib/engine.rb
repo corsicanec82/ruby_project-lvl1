@@ -2,6 +2,9 @@ module Engine
   ROUNDS_COUNT = 3
 
   def self.run(description, rounds_data)
+    # необходимо отключить буферизацию вывода, чтобы работали тесты
+    $stdout.sync = true
+
     puts 'Welcome to the Brain Games!'
     print 'May I have your name? '
     name = gets.chomp
@@ -21,6 +24,6 @@ module Engine
       puts 'Correct!'
     end
 
-    puts "Congratulations, #{name}"
+    puts "Congratulations, #{name}!"
   end
 end
